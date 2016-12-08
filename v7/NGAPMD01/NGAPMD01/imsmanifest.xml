@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="GRUDTESTPOOL" version="CP 1.2" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p2.xsd">
+    <metadata />
+    <organizations />
+    <resources>
+        <resource identifier="NGAPMD01" type="imsqti_v2p1" href="NGAPMD01.xml">
+            <file href="NGAPMD01.xml" />
+			
+			<file href="assets/btn_watch.png" />
+			<file href="assets/correctMarkImage.png" />
+			<file href="assets/hand.png" />
+			<file href="assets/NGAPMD01_drag_1.png" />
+			<file href="assets/NGAPMD01_drag_2.png" />
+			<file href="assets/NGAPMD01_drag_3.png" />
+			<file href="assets/NGAPMD01_drag_4.png" />
+			<file href="assets/NGAPMD01_drag_5.png" />
+			<file href="assets/NGAPMD01_img_1.png" />
+			<file href="assets/NGAPMD01_img_2.png" />
+			<file href="assets/NGAPMD01_img_3.png" />
+			<file href="assets/NGAPMD01_img_4.png" />
+			<file href="assets/star_anim.png" />
+			<file href="assets/topBar.png" />
+			<file href="assets/topBar_active.png" />
+			
+			<file href="assets/NGAPMD01_img_4.svgz" />
+			
+			<file href="assets/NGAAudioFX_demo.mp4" />
+			<file href="assets/NGAAudioFX_plonk_down.mp4" />
+			<file href="assets/NGAAudioFX_plonk_up.mp4" />
+			<file href="assets/NGAPMD01_boatDing.mp4" />
+			<file href="assets/NGAPMD01_carHonk.mp4" />
+			<file href="assets/blankAudio.mp4" />
+			
+			<file href="assets/NGAAudioFX_demo.wav" />
+			<file href="assets/NGAAudioFX_plonk_down.wav" />
+			<file href="assets/NGAAudioFX_plonk_up.wav" />
+			<file href="assets/NGAPMD01_boatDing.wav" />
+			<file href="assets/NGAPMD01_carHonk.wav" />
+			<file href="assets/blankAudio.wav" />
+        </resource>
+    </resources>
+</manifest>

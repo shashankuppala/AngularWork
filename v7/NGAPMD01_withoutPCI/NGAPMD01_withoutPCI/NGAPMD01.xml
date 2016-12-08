@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/imsqti_v2p1.xsd" identifier="NGAPMD01" title="NGAPMD01" adaptive="false" timeDependent="false">
+        <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="string" />
+        <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float" />
+        <itemBody>
+            <div class="hidden">          
+			
+				<img alt="" id="img0" src="assets/btn_watch.png" />
+				<img alt="" id="img1" src="assets/correctMarkImage.png" />
+				<img alt="" id="img12" src="assets/hand.png" />
+				<img alt="" id="img15" src="assets/star_anim.png" />
+
+				<img alt="" id="img21" src="assets/topBar.png" />
+				<img alt="" id="img22" src="assets/topBar_active.png" />
+
+				<img alt="" id="leftCardsImgId_1" src="assets/NGAPMD01_drag_1.png" />
+				<img alt="" id="leftCardsImgId_2" src="assets/NGAPMD01_drag_3.png" />
+				<img alt="" id="leftCardsImgId_3" src="assets/NGAPMD01_drag_5.png" />
+				<img alt="" id="leftCardsImgId_4" src="assets/NGAPMD01_drag_4.png" />
+				<img alt="" id="leftCardsImgId_5" src="assets/NGAPMD01_drag_2.png" />
+
+				<img alt="" id="rightCardsImgId_1" src="assets/NGAPMD01_img_1.png" />
+				<img alt="" id="rightCardsImgId_2" src="assets/NGAPMD01_img_2.png" />
+				<img alt="" id="rightCardsImgId_3" src="assets/NGAPMD01_img_3.png" />
+				<img alt="" id="rightCardsImgId_4" src="assets/NGAPMD01_img_4.svgz" />
+
+				<img alt="" id="longRoad" src="assets/NGAPMD01_img_2.png" />
+				<img alt="" id="longSea" src="assets/NGAPMD01_drag_2.png" />
+				
+				<object class="noprocess" data="assets/NGAPMD01_boatDing.mp4" id="NGAPMD01_boatDing_mp4" type="video/mp4" />
+				<object class="noprocess" data="assets/NGAPMD01_carHonk.mp4" id="NGAPMD01_carHonk_mp4" type="video/mp4" />
+				<object class="noprocess" data="assets/NGAAudioFX_demo.mp4" id="NGAAudioFX_demo_mp4" type="video/mp4" />
+				<object class="noprocess" data="assets/NGAAudioFX_plonk_down.mp4" id="NGAAudioFX_plonk_down_mp4" type="video/mp4" />
+				<object class="noprocess" data="assets/NGAAudioFX_plonk_up.mp4" id="NGAAudioFX_plonk_up_mp4" type="video/mp4" />
+
+				<object class="noprocess" data="assets/NGAPMD01_boatDing.wav" id="NGAPMD01_boatDing_wav" type="video/wav" />
+				<object class="noprocess" data="assets/NGAPMD01_carHonk.wav" id="NGAPMD01_carHonk_wav" type="video/wav" />
+				<object class="noprocess" data="assets/NGAAudioFX_demo.wav" id="NGAAudioFX_demo_wav" type="video/wav" />
+				<object class="noprocess" data="assets/NGAAudioFX_plonk_down.wav" id="NGAAudioFX_plonk_down_wav" type="video/wav" />
+				<object class="noprocess" data="assets/NGAAudioFX_plonk_up.wav" id="NGAAudioFX_plonk_up_wav" type="video/wav" />
+            </div>
+            <customInteraction class="tei-pci" responseIdentifier="RESPONSE">
+                <prcqti:customInteraction xmlns:prcqti="prcqti">
+                    <customOption name="markup" value="markup" valuetype="DATA">
+                        <div class="NGAPMD01" id="sim-NGAPMD01">
+							<div id="NGAPMD01_Parent">
+								<div id="NGAPMD01">
+									<div class="topBar"></div>
+									<div id="actualContainer">
+										<div id="activityArea">
+											<div class="parent_2">
+												<div class="topBoxContainer">
+													<div class="leftBox">
+														<div class="bgCircle1 bgCircle"></div>
+														<div class="bgCircle2 bgCircle"></div>
+														<div class="bgCircle3 bgCircle"></div>
+														<div class="bgCircle4 bgCircle"></div>
+													</div>
+													<div class="rightBox">
+														<div class="bgCircle1 bgCircle"></div>
+														<div class="bgCircle2 bgCircle"></div>
+														<div class="bgCircle3 bgCircle"></div>
+														<div class="bgCircle4 bgCircle"></div>
+													</div>
+												</div>
+												<div class="bottomBoxContainer">
+													<div class="leftBox">
+														<div class="bgCircle1 bgCircle"></div>
+														<div class="bgCircle2 bgCircle"></div>
+														<div class="bgCircle3 bgCircle"></div>
+														<div class="bgCircle4 bgCircle"></div>
+													</div>
+													<div class="rightBox">
+														<div class="bgCircle1 bgCircle"></div>
+														<div class="bgCircle2 bgCircle"></div>
+														<div class="bgCircle3 bgCircle"></div>
+														<div class="bgCircle4 bgCircle"></div>
+													</div>
+												</div>
+												<div class="demo_rightContainer">
+													<div class="movingCar">
+														<div class="roadImage"></div>
+													</div>
+													<div class="movingBoat">
+														<div class="boatImage"></div>
+													</div>
+													<div class="dropOuterCss" id="dropOuter_0">
+														<div class="dropCss" id="rightCards_1">
+															<div class="whiteBgCss"></div>
+															<div class="rightCardsImg_1 dropImgCss"></div>
+														</div>
+														<div class="dropCss" id="rightCards_2">
+															<div class="rightCardsImg_2 dropImgCss"></div>
+														</div>
+													</div>
+													<div class="dropOuterCss" id="dropOuter_1">
+														<div class="dropCss" id="rightCards_3">
+															<div class="rightwhiteBgCss"></div>
+															<div class="rightCardsImg_3 dropImgCss"></div>
+														</div>
+														<div class="dropCss elementDrop" id="rightCards_4">
+															<div class="rightCardsImg_4 dropImgCss"></div>
+														</div>
+													</div>
+												</div>
+
+												<div class="demo_leftContainer">
+													<div class="dragCss" id="leftCards_1">
+														<div class="leftCardsImg_1 dragImgCss"></div>
+													</div>
+													<div class="dragCss" id="leftCards_2">
+														<div class="leftCardsImg_2 dragImgCss"></div>
+													</div>
+													<div class="dragCss" id="leftCards_3">
+														<div class="leftCardsImg_3 dragImgCss"></div>
+													</div>
+													<div class="dragCss" id="leftCards_4">
+														<div class="leftCardsImg_4 dragImgCss"></div>
+													</div>
+													<div class="dragCss" id="leftCards_5">
+														<div class="leftCardsImg_5 dragImgCss"></div>
+													</div>
+												</div>
+
+												<div id="starAnim"></div>
+												<div id="correct"></div>
+												<div id="handImg"></div>
+												<div id="audioHandler">
+													<object id="audio2" data="assets/blankAudio.wav" type="video/mp4"></object>
+												</div>
+											</div>
+										</div>
+										<div id="wrapperPatch"></div>
+										<div class="buttonCss" id="startButton"></div>
+									</div>
+									<div class="blackPatch" id="topBlackpatch"></div>
+									<div class="blackPatch" id="bottomBlackpatch">
+										<div class="" id="slider">
+											<div class="" id="progressBar"></div>
+										</div>
+									</div>
+								</div>
+							</div>					
+						</div>						
+                    </customOption>
+                    <customOption name="script" value="script" valuetype="DATA">
+                <![CDATA[
+					qtiCustomInteractionContext.register({
+                    //BEGIN CUSTOM JAVASCRIPT
+                   
+                        //CREATE GLOBAL VARIABLES id AND identifier AS REQUIERD BY TN8
+                        id: 'NGAPMD01',
+                        identifier: 'RESPONSE',
+						
+						_identifier: 'SIMULATION',
+						_dragItem: null,
+						_currentDrop: null,
+						_revDragCnt: 5,
+						_revDropCnt: 1,
+						_dragItems: 5,
+						_dropMatrix: [2, 2],
+						_dropCounter: 1,
+						_dragCounter: 1,
+						_dragLeftPosArr_1: [0, 190, 0, 190, 0],
+						_dragTopPosArr_1: [40, 140, 230, 330, 420],
+						_dropLeftPosArr: [0, 16, 0, 16],
+						_dropTopPosArr: [0, 0, 0, 0],
+						_droppableDivsIdNumArr: [4],
+						_correctAnswerArr: 3,
+						_userAnsArr: null,
+						_quizAttempted: false,
+						_audioArray: [ 'blankAudio','NGAAudioFX_plonk_up','NGAAudioFX_plonk_down'],
+						_audioPath: 'assets/',
+						_isDraggedObj: false,
+						_controlTimeOut: null,
+						_controlTimeOutofDrag: null,
+						_isrevDrop: true,
+						_setTimeArray: ["setTimeOut0", "setTimeOut1", "setTimeOut2", "setTimeOut3", "setTimeOut4", "setTimeOut5"],
+
+                        getResponse: function () {
+                            //SET GLOBAL VARIABLES TO TN8 FOR USE IN STATE RESTORATION
+                            //console.log('Get Response');
+                            // var obj = {
+                            //      userSelection: this.userAnswer
+                            // };
+							
+							var obj = '';
+                            //console.log(JSON.stringify(obj));
+                            return obj;
+                        },
+                    
+                        // not yet implemented...just a stub for now.
+                        getSerializedState : function() {
+                            return {};
+                        },
+
+                        //GET TYPE IDENTIFIER REQUIRED BY TN8
+                        getTypeIdentifier: function () {
+                            return 'NGAPMD01';
+                        },
+
+                        /**
+                         * setResponse() - called by TN8 to restore state of item
+                         */
+                        setResponse: function (param) {
+                            //console.log('Set Response');
+                            return {};
+                        },
+                        //END REQUIRED FUNCTIONS
+
+                        // BEGIN REQUIRED FUNCTIONS
+                        initialize: function (id, htmlNode) {
+                            //retain id for global context
+                            this.id = id;
+
+                            //reference partent element by assigning it to this.$el
+                            this.$el = $(htmlNode);
+
+                            //initalize custom code
+                            this.init();                                                        
+                             
+                        },
+
+                        init: function () {
+                            //CREATE THAT = THIS FOR SCOPING REASONS
+                            var that = this;                            
+                            //CREATE LOCAL VARIABLES TO BE USED IN BUSINESS LOGIC
+                            that._identifier= 'SIMULATION';
+							that._animators= {};
+							that._spriteModelData= {};
+							that._isCanvas= true;
+							that._leftCardItems= 5;
+							that._rightCardItems= 4;
+							that._rightCardCounter= 1;
+							that._leftCardCounter= 1;
+							that._audio= null;
+							that._revLeftCardCnt= 5;
+							that._firstanimationComple= false;
+							that._secondanimationComple= false;
+							that._audioArray_1= ['NGAPMD01_carHonk', 'NGAPMD01_boatDing', 'NGAAudioFX_demo', 'NGAAudioFX_plonk_up', 'NGAAudioFX_plonk_down'];
+							that._audioPath= 'assets/';
+							that._leftCardPosArr= [0, 0, 0, 190, 190];
+							that._rightTopPosArr= [430, 240, 50, 330, 140];
+							that._rightCardLeftPosArr= [18, 301, 18, 301];
+							that._rghtCrdCounter= 1;
+							that._revCont= 5;
+							that._scaleFactor= null;
+							that._setTimeArray= ["setTimeOut0", "setTimeOut1", "setTimeOut2", "setTimeOut3", "setTimeOut4", "setTimeOut5", "setTimeOut6", "setTimeOut7", "setTimeOut8", "setTimeOut9"];
+        
+                            that.cssInitialization();
+                            
+                            window.onload = that._doScaling();
+                            window.onresize = that._doScaling();
+                           
+                            //that._doScaling();
+                            
+                            //that._settingCustomImageToPointer();
+                            
+                            //CHECK IF USER AGENT IS EITHER CHROME OR CHROMUIM
+                            isChromeBrowser = /chrom(e|ium)/.test(navigator.userAgent.toLowerCase());
+                            isChromebook = window.navigator.userAgent.indexOf('cros');
+
+                            
+
+                            //NOTIFY TN8 AFTER LOADING OF ITEM IS COMPLETE
+                            qtiCustomInteractionContext.notifyReady(that.id);
+							
+                            //END initItem()                            
+
+                        },
+						interactionFinished: function () {
+							var that = this;
+							
+							if (that._setTimeArray.length > 0) {
+								for (i = 0; i < that._setTimeArray.length; i++) {
+									clearTimeout(that._setTimeArray[i]);
+								}
+							}
+							that.id = null;
+							that._identifier = null;
+							that._animators = null;
+							that._spriteModelData = null;
+							that._isCanvas = false;
+							that._scaleFactor = null;
+
+							qtiCustomInteractionContext.notifyDone(this.id);
+						},
+                        // css initialization function
+                        cssInitialization:function(){                            
+							var that = this;
+							that._container = $('#' + that.id);
+							that._container1 = that._container.find('#NGAPMD01');
+							that._parentDiv = that._container.find('.parent_2');
+							that._demo_rightContainer = that._container.find('.demo_rightContainer');
+							that._demo_leftContainer = that._container.find('.demo_leftContainer');
+							that._topBoxContainer = that._parentDiv.find(".topBoxContainer");
+							that._bottomBoxContainer = that._parentDiv.find(".bottomBoxContainer");
+							that._leftBox = that._parentDiv.find(".leftBox");
+							that._rightBox = that._parentDiv.find(".rightBox");
+							that._bgCircle = that._parentDiv.find(".bgCircle");
+							that._bgCircle1 = that._parentDiv.find(".bgCircle1");
+							that._bgCircle2 = that._parentDiv.find(".bgCircle2");
+							that._bgCircle3 = that._parentDiv.find(".bgCircle3");
+							that._bgCircle4 = that._parentDiv.find(".bgCircle4");
+							//
+							that._movingCar = that._demo_rightContainer.find('.movingCar');
+							that._roadImage = that._movingCar.find('.roadImage');
+							that._movingBoat = that._demo_rightContainer.find('.movingBoat');
+							that._boatImage = that._movingBoat.find('.boatImage');
+							that._dropCss = that._demo_rightContainer.find('.dropCss');
+							that._dropOuter_1 = that._demo_rightContainer.find('#dropOuter_1');
+							that._dropOuter_0 = that._demo_rightContainer.find('#dropOuter_0');
+							that._dropOuterCss = that._demo_rightContainer.find('.dropOuterCss');
+							that._whiteBgCss = that._demo_rightContainer.find('.whiteBgCss');
+							that._rightwhiteBgCss = that._demo_rightContainer.find('.rightwhiteBgCss');
+							that._rightCards_1 = that._demo_rightContainer.find('#rightCards_1');
+							that._rightCards_2 = that._demo_rightContainer.find('#rightCards_2');
+							that._rightCards_3 = that._demo_rightContainer.find('#rightCards_3');
+							that._rightCards_4 = that._demo_rightContainer.find('#rightCards_4');
+							that._rightCardsImg_1 = that._dropCss.find('.rightCardsImg_1');
+							that._rightCardsImg_2 = that._dropCss.find('.rightCardsImg_2');
+							that._rightCardsImg_3 = that._dropCss.find('.rightCardsImg_3');
+							that._rightCardsImg_4 = that._dropCss.find('.rightCardsImg_4');
+							that._dropImgCss = that._dropCss.find('.dropImgCss');
+							//
+							that._dragCss = that._demo_leftContainer.find('.dragCss');
+							that._leftCards_1 = that._demo_leftContainer.find('#leftCards_1');
+							that._leftCards_2 = that._demo_leftContainer.find('#leftCards_2');
+							that._leftCards_3 = that._demo_leftContainer.find('#leftCards_3');
+							that._leftCards_4 = that._demo_leftContainer.find('#leftCards_4');
+							that._leftCards_5 = that._demo_leftContainer.find('#leftCards_5');
+							that._dragImgCss = that._dragCss.find('.dragImgCss');
+							that._leftCardsImg_1 = that._dragCss.find('.leftCardsImg_1');
+							that._leftCardsImg_2 = that._dragCss.find('.leftCardsImg_2');
+							that._leftCardsImg_3 = that._dragCss.find('.leftCardsImg_3');
+							that._leftCardsImg_4 = that._dragCss.find('.leftCardsImg_4');
+							that._leftCardsImg_5 = that._dragCss.find('.leftCardsImg_5');
+							//
+							that._starAnim = that._parentDiv.find('#starAnim');
+							that._correct = that._parentDiv.find('#correct');
+							that._startButton = that._container.find('#startButton');
+							that._button = that._parentDiv.find('.buttonCss');
+							that._handImg = that._parentDiv.find('#handImg');
+							that._customMouseHolder = that._parentDiv.find('#customMouseHolder');
+
+							
+							that._container.css({
+								'position': 'relative',
+								'margin': '0 auto',
+								'width': '1024px',
+								'height': '688px',
+								'overflow': 'hidden'
+							});
+							that._container1.css({
+								'position': 'relative',
+								'width': '1024px',
+								'height': '688px',
+								'cursor': 'default',
+								'overflow': 'hidden',
+							});
+							that._topBoxContainer.css({
+								'width': '570px',
+								'height': '285px',
+								'position': 'absolute',
+								'top': '48px',
+								'right': '22px',
+								'border-top': 'solid 5px #43309C',
+								'border-left': 'solid 5px #43309C',
+								'border-right': 'solid 5px #43309C',
+								'border-bottom': 'solid 5px #6144D4',
+								'border-radius': '12px',
+								'background': '#6651AE'
+							});
+							that._bottomBoxContainer.css({
+								'width': '570px',
+								'height': '285px',
+								'position': 'absolute',
+								'top': '366px',
+								'right': '22px',
+								'border-top': 'solid 5px #43309C',
+								'border-left': 'solid 5px #43309C',
+								'border-right': 'solid 5px #43309C',
+								'border-bottom': 'solid 5px #6144D4',
+								'border-radius': '12px',
+								'background': '#6651AE'
+							});
+							that._leftBox.css({
+								'background': '#604DA6',
+								'height': '263px',
+								'width': '267px',
+								'position': 'absolute',
+								'top': '11px',
+								'left': '10px'
+							});
+							that._rightBox.css({
+								'background': '#604DA6',
+								'height': '263px',
+								'width': '267px',
+								'position': 'absolute',
+								'top': '11px',
+								'left': '293px'
+							});
+							that._bgCircle.css({
+								'width': '12px',
+								'height': '12px',
+								'position': 'absolute',
+								'border-radius': '10px',
+								'background': '#4A33A7'
+							});
+							that._bgCircle1.css({
+								'left': '6px',
+								'top': '6px'
+							});
+							that._bgCircle2.css({
+								'left': '250px',
+								'top': '6px'
+							});
+							that._bgCircle3.css({
+								'left': '6px',
+								'top': '244px'
+							});
+							that._bgCircle4.css({
+								'left': '250px',
+								'top': '244px'
+							});
+							
+							/* slider css starts here */
+							that._activityArea = that._container.find('#activityArea');
+							that._topBar = that._container.find('.topBar');
+							that._slider = that._container.find('#slider');
+							that._progressBar = that._container.find('#progressBar');
+
+							that._container.find('.blackPatch').css({
+								'position': 'absolute',
+								'width': '1024px',
+								'height': '80px',
+								'background-color': '#000'
+
+							});
+							that._container.find('#topBlackpatch').css({
+								'top': '0px'
+							});
+							that._container.find('#bottomBlackpatch').css({
+								'bottom': '0px'
+							});
+
+							that._slider.css({
+								'position': 'absolute',
+								'width': '800px',
+								'height': '8px',
+								'background-color': '#666666',
+								'top': '10px',
+								'left': '0px',
+								'right': '0px',
+								'margin': 'auto',
+								/* 'border-radius': '4px', */
+								'overflow': 'hidden'
+							});
+
+							that._progressBar.css({
+								'position': 'absolute',
+								'width': '0px',
+								'height': '8px',
+								'background-color': '#fff'
+							});
+
+							that._container.find('#actualContainer').css({
+								'position': 'absolute',
+								"width": "714px",
+								"height": "528px",
+								'top': '80px',
+								'left': '0px',
+								'right': '0px',
+								'margin': 'auto',
+								'background': '#7960C5',
+								/* For browsers that do not support gradients */
+								'background': '-webkit-linear-gradient(#7960C5, #9D83C4)',
+								/* For Safari 5.1 to 6.0 */
+								'background': '-o-linear-gradient(#7960C5, #9D83C4)',
+								/* For Opera 11.1 to 12.0 */
+								'background': '-moz-linear-gradient(#7960C5, #9D83C4)',
+								/* For Firefox 3.6 to 15 */
+								'background': 'linear-gradient(#7960C5, #9D83C4)',
+								/* Standard syntax (must be last) */
+							});
+							that._activityArea.css({
+								'position': 'absolute',
+								"width": "1024px",
+								"background-size": "100% 100%",
+								"height": "688px",
+								'top': '58px',
+								'left': '8px',
+								'transform': 'scale(0.68)',
+								'-webkit-transform': 'scale(0.68)',
+								'-moz-transform': 'scale(0.68)',
+								'-ms-transform': 'scale(0.68)',
+								'transform-origin': '0% 0%',
+								'-webkit-transform-origin': '0% 0%',
+								'-moz-transform-origin': '0% 0%',
+								'-ms-transform-origin': '0% 0%',
+								/*'overflow': 'hidden'*/
+							});
+							that._topBar.css({
+								'position': 'absolute',
+								'width': '1024px',
+								'height': '73px',
+								'background-size': '100% 100%',
+								'top': '80px',
+								'left': '0px',
+								'right': '0px',
+								'margin': 'auto',
+								'z-index': '1'
+							});
+							that._topBar.css("background-image", "url(" + $('#img21').attr('src') + ")");
+
+
+							/* slider css ends here */
+							
+							that._correct.css({
+								'width': '242px',
+								'height': '240px',
+								'display': 'none',
+								'position': 'relative',
+								'left': '370px',
+								'top': '220px',
+								'z-index': '5'
+							});
+							that._correct.css({
+								"background-image": "url(" + $('#img1').attr('src') + ")",
+								"backface-visibility": "hidden"
+							});
+							that._starAnim.css({
+								'position': 'absolute',
+								'width': '915px',
+								'height': '437px',
+								'top': '50px',
+								'right': '0',
+								'left': '0',
+								'margin': 'auto',
+								'display': 'none'
+							});
+							that._startButton.css({
+								'width': '200px',
+								'height': '130px',
+								'background-repeat': 'no-repeat',
+								'background-image': 'url(' + $("#img0").attr("src") + ')',
+								'backface-visibility': 'hidden',
+								'margin': '0 auto',
+								'position': 'absolute',
+								'top': '200px',
+								'right': '0',
+								'left': '0',
+							});
+
+							that._button.css({
+								'position': 'absolute',
+								'background-color': 'transparent',
+								'border': 'none',
+								'padding': '0',
+								'box-sizing': 'border-box',
+								'top': '0',
+								'bottom': '0',
+								'left': '0',
+								'right': '0',
+								'margin': 'auto',
+								'cursor': 'pointer',
+								'-webkit-touch-callout': 'none',
+								'-webkit-user-select': 'none',
+								'-khtml-user-select': 'none',
+								'-moz-user-select': 'none',
+								'-ms-user-select': 'none',
+								'user-select': 'none',
+								'-webkit-tap-highlight-color': 'rgba(0, 0, 0, 0)',
+								'opacity': '1'
+							});
+							/*that._customMouseHolder.css({
+								'position': 'absolute',
+								'width': '64px',
+								'height': '64px',
+								'background-repeat': 'no-repeat',
+								'pointer-events': 'none !important'
+							});
+							that._customMouseHolder.css({
+								"background-image": "url(" + $('#img2').attr('src') + ")",
+								"backface-visibility": "hidden"
+							});*/
+							that._demo_leftContainer.css({
+								'position': 'relative',
+								'float': 'left',
+								'width': '370px',
+								'left': '20px',
+								'top': '20px'
+							});
+							that._demo_rightContainer.css({
+								'position': 'relative',
+								'float': 'right',
+								'width': '600px',
+								'left': '-3px',
+								'top': '48px'
+							});
+							that._dragCss.css({
+								'width': '160px',
+								'height': '160px',
+								'float': 'left',
+								'background': '#FBFAFA',
+								'position': 'absolute',
+								'border': '10px solid black',
+								'background-clip': 'content-box',
+							});
+							that._leftCardsImg_1.css({
+								'width': '268px',
+								'height': '268px',
+								'transform': 'scale(0.6)',
+								'-webkit-transform': 'scale(0.6)',
+								'-ms-transform': 'scale(0.6)',
+								'-moz-transform': 'scale(0.6)',
+								'-o-transform': 'scale(0.6)',
+								'position': 'relative',
+								'left': '-50px',
+								'top': '-50px',
+								'-webkit-backface-visibility': 'hidden',
+								'backface-visibility': 'hidden'
+							});
+							that._leftCardsImg_2.css({
+								'width': '268px',
+								'height': '268px',
+								'transform': 'scale(0.6)',
+								'-webkit-transform': 'scale(0.6)',
+								'-ms-transform': 'scale(0.6)',
+								'-moz-transform': 'scale(0.6)',
+								'-o-transform': 'scale(0.6)',
+								'position': 'relative',
+								'left': '-46px',
+								'top': '-52px',
+								'-webkit-backface-visibility': 'hidden',
+								/* Chrome, Safari, Opera */
+								'backface-visibility': 'hidden'
+							});
+							that._leftCardsImg_3.css({
+								'width': '268px',
+								'height': '268px',
+								'transform': 'scale(0.65)',
+								'-webkit-transform': 'scale(0.65)',
+								'-ms-transform': 'scale(0.65)',
+								'-moz-transform': 'scale(0.65)',
+								'-o-transform': 'scale(0.65)',
+								'left': '-50px',
+								'top': '-48px',
+								'position': 'relative',
+								'-webkit-backface-visibility': 'hidden',
+								/* Chrome, Safari, Opera */
+								'backface-visibility': 'hidden'
+							});
+
+							that._leftCardsImg_4.css({
+								'width': '222px',
+								'height': '180px',
+								'transform': 'scale(0.65)',
+								'-webkit-transform': 'scale(0.65)',
+								'-ms-transform': 'scale(0.65)',
+								'-moz-transform': 'scale(0.65)',
+								'-o-transform': 'scale(0.65)',
+								'position': 'relative',
+								'left': '-30px',
+								'top': '-8px',
+								'-webkit-backface-visibility': 'hidden',
+								/* Chrome, Safari, Opera */
+								'backface-visibility': 'hidden',
+								'background-size': '100% 100%'
+							});
+							
+							that._leftCardsImg_5.css({
+								'width': '300px',
+								'height': '268px',
+								'-webkit-transform': 'scale(0.7)',
+								'-ms-transform': 'scale(0.7)',
+								'-moz-transform': 'scale(0.7)',
+								'-o-transform': 'scale(0.7)',
+								'transform': 'scale(0.7)',
+								'position': 'relative',
+								'left': '-55px',
+								'top': '-56px',
+								'-webkit-backface-visibility': 'hidden',
+								/* Chrome, Safari, Opera */
+								'backface-visibility': 'hidden'
+							});
+
+							/*that._leftCards_1.css({
+								'overflow': 'hidden',
+								'top': '-270px'
+							});
+							that._leftCards_2.css({
+								'overflow': 'hidden',
+								'top': '-460px'
+							});
+							that._leftCards_3.css({
+								'overflow': 'hidden',
+								'top': '-650px'
+							});
+							that._leftCards_4.css({
+								'left': '190px',
+								'top': '-370px'
+							});
+							that._leftCards_5.css({
+								'overflow': 'hidden',
+								'left': '190px',
+								'top': '-560px'
+							});*/
+
+							that._leftCards_1.css({
+								'overflow': 'hidden',
+								'top': '-250px'
+							});
+							that._leftCards_2.css({
+								'overflow': 'hidden',
+								'top': '-250px'
+							});
+							that._leftCards_3.css({
+								'overflow': 'hidden',
+								'top': '-250px'
+							});
+							that._leftCards_4.css({
+								'left': '190px',
+								'top': '-250px'
+							});
+							that._leftCards_5.css({
+								'overflow': 'hidden',
+								'left': '190px',
+								'top': '-250px'
+							});
+
+							that._dropOuter_1.css({
+								'position': 'relative',
+								'top': '55px'
+							});
+							that._dropOuterCss.css({
+								'position': 'relative',
+								'width': '549px',
+								'height': '263px'
+							});
+							that._whiteBgCss.css({
+								"width": "264px",
+								"height": "263px",
+								"float": "left",
+								"position": "absolute",
+								"top": "0px",
+								"left": "0px",
+								"background": "#FFF",
+								"opacity": '0'
+							});
+							that._rightCards_1.css({
+								"width": "264px",
+								"height": "263px",
+								"float": "left",
+								"position": "absolute",
+								"top": "16px",
+								"left": "868px",
+								"background": "#FFF"
+							});
+							that._rightCards_2.css({
+								"width": "264px",
+								"height": "265px",
+								"float": "left",
+								"position": "absolute",
+								"top": "14px",
+								"left": "950px",
+								"overflow": "hidden",
+								"background": "#FFF"
+							});
+							that._rightCards_3.css({
+								"width": "264px",
+								"height": "263px",
+								"float": "left",
+								"position": "absolute",
+								"top": "17px",
+								"left": "958px",
+								"background": "#FFF",
+								"background-size": "100% 100%"
+							});
+							that._rightwhiteBgCss.css({
+								"width": "264px",
+								"height": "263px",
+								"float": "left",
+								"position": "absolute",
+								"top": "0px",
+								"left": "0px",
+								"background": "#FFF",
+								"opacity": "0"
+							});
+							that._rightCards_4.css({
+								"width": "263px",
+								"height": "262px",
+								"float": "left",
+								"position": "absolute",
+								"top": "18px",
+								"left": "301px",
+								'opacity': '0'
+							});
+							that._dragImgCss.css({
+								'background-repeat': 'no-repeat'
+							});
+							that._dropImgCss.css({
+								'width': '240px',
+								'top': '20px',
+								'position': 'absolute',
+								'left': '1px',
+								'height': '240px',
+								'background-repeat': 'no-repeat'
+							});
+							that._rightCardsImg_1.css({
+								'height': '106px',
+								'width': '268px',
+								'top': '140px',
+								'transform': 'scale(0.93) translate3d(0,0,0)',
+								'-webkit-transform': 'scale(0.93) translate3d(0,0,0)',
+								"-moz-transform": "scale(0.93) translate3d(0,0,0)",
+								"-ms-transform": "scale(0.93) translate3d(0,0,0)",
+								"-o-transform": "scale(0.93) translate3d(0,0,0)",
+							});
+							that._rightCardsImg_1.css({
+								"background-image": "url(" + $('#rightCardsImgId_1').attr('src') + ")",
+								"backface-visibility": "hidden"
+							});
+							that._rightCards_2.css({
+								'background': 'transparent'
+							});
+							that._rightCardsImg_2.css({
+								'top': '1px',
+								'height': '266px',
+								'left': '0px',
+								'width': '268px',
+								'opacity': '1',
+								'backface-visibility': 'hidden'
+							});
+							that._rightCardsImg_2.css({
+								"background-image": "url(" + $('#rightCardsImgId_2').attr('src') + ")",
+								"background-position": "-284px 0",
+								"backface-visibility": "hidden"
+							});
+							that._rightCardsImg_3.css({
+								'width': '153px',
+								'height': '229px',
+								'left': '50px',
+								'top': '14px',
+								'background-size': '100% 100%'
+							});
+							that._rightCardsImg_3.css({
+								"background-image": "url(" + $('#rightCardsImgId_3').attr('src') + ")",
+								"backface-visibility": "hidden"
+							});
+							that._rightCardsImg_4.css({
+								'width': '141px',
+								'height': '254px',
+								'left': '65px',
+								'top': '10px',
+								'background-color': 'transparent'
+							});
+							that._rightCardsImg_4.css({
+								"background-image": "url(" + $('#rightCardsImgId_4').attr('src') + ")",
+								"backface-visibility": "hidden"
+							});
+							that._roadImage.css({
+								'position': 'absolute',
+								'left': '-1px',
+								'top': '1px',
+								'width': '680px',
+								'height': '268px',
+								'opacity': '0'
+							});
+							that._roadImage.css({
+								"background-image": "url(" + $('#longRoad').attr('src') + ")",
+								"backface-visibility": "hidden"
+							});
+							that._boatImage.css({
+								'position': 'absolute',
+								'left': '-1px',
+								'top': '1px',
+								'width': '684px',
+								'height': '271px',
+								'opacity': '0'
+							});
+							that._boatImage.css({
+								"background-image": "url(" + $('#longSea').attr('src') + ")",
+								"backface-visibility": "hidden"
+							});
+							that._movingCar.css({
+								/*z-index: -1;*/
+								'position': 'absolute',
+								'width': '547px',
+								'left': '18px',
+								'top': '14px',
+								'height': '265px',
+								'overflow': 'hidden'
+							});
+							that._movingBoat.css({
+								/*z-index: -1;*/
+								'position': 'absolute',
+								'width': '547px',
+								'left': '18px',
+								'top': '334px',
+								'height': '265px',
+								'overflow': 'hidden'
+							});
+							that._handImg.css({
+								'position': 'fixed',
+								'width': '360px',
+								'height': '440px',
+								'top': '320px',
+								'left': '-300px',
+								'background-repeat': 'no-repeat',
+								'opacity': '0',
+								'background-size': '100% 100%'
+							});
+							that._handImg.css({
+								"background-image": "url(" + $('#img12').attr('src') + ")",
+								"backface-visibility": "hidden"
+							});
+							
+							that._container.find('#audioHandler').hide();
+							that._container.find('#audio2').css('visibility', 'hidden');
+								
+							window.onload = function () {
+								that._doScaling();
+							}
+							
+							$(window).resize(function(){
+								that._doScaling();
+							});
+							that._doScaling();
+							that._initialization();
+						},
+						_initialization: function () {
+							var that = this;
+							if (navigator.userAgent.match(/iPad/i) != null) {
+								that._container.find('#customMouseHolder').css('opacity', '0');
+							}
+							that._startActivity();
+							that._creatingStarAnimSpriteModel();
+						},
+						_startActivity: function () {
+							var that = this;
+							//that._settingCustomImageToPointer();
+							//that._ieRelatedFunctionality();
+							that._startButton.show();
+							that._functionalityOfViewButton();
+							that.audio_1 = document.getElementById('audio2');
+						},
+						_functionalityOfViewButton: function () {
+							var that = this;
+							that._startButton.off('click').on('click', function () {
+								that._playAudio(that._audioArray_1[2]);
+								//window.parent.logoHide()
+								that._startButton.hide();
+
+								that._progressBar.animate({
+									'width': '800px'
+								}, 34000, function () {
+									
+									//window.parent.nextButtonEnable();
+									//window.parent.changeCheckVarTrue();
+								});
+							});
+						},
+						_startClick: function () {
+							var that = this;
+							that._animationOfRightCards();
+						},
+						
+						// animation of rightCards
+						_animationOfRightCards: function () {
+							var that = this;
+							that._rightCards_4.css('background', 'transparent');
+							if (that._rightCardCounter <= that._rightCardItems / 2) {
+								that._container.find("#rightCards_" + that._rightCardCounter).animate({
+									left: that._rightCardLeftPosArr[that._rightCardCounter - 1]
+								}, 700, function () {
+									that._rightCardCounter++;
+									that._whiteBgCss.css('opacity', '1')
+									that._setTimeArray[0] = setTimeout(function () {
+										that._animationOfRightCards();
+									}, 1400);
+								});
+							} else {
+								that._setTimeArray[0] = setTimeout(function () {
+									//that._carAnimation();
+									that._playAudio(that._audioArray_1[0]);
+								}, 500);
+							}
+						},
+						_rightCardAnimation: function () {
+							var that = this;
+							that._rightCards_4.css('background-color', 'transparent');
+							that._rightwhiteBgCss.css('opacity', '1');
+							if (that._rightCardCounter <= that._rightCardItems) {
+								that._container.find("#rightCards_4").css('left', that._rightCardLeftPosArr[that._rightCardCounter]);
+								that._container.find("#rightCards_4").animate({
+									opacity: 1
+								}, 700, function () {
+									that._questionFlashing()
+								});
+							}
+						},
+						_carAnimation: function () {
+							var that = this;
+							that._rightCards_2.css({
+								'display': 'none'
+							});
+							that._roadImage.css('opacity', '1');
+							that._rightCards_1.css("background", "transparent");
+							that._roadImage.animate({
+								opacity: 1
+							}, 50);
+							that._whiteBgCss.fadeOut(500, function () {
+								that._roadImage.animate({
+									left: -127
+								}, 1500, function () {
+									that._setTimeArray[2] = setTimeout(function () {
+										$(that._roadImage).fadeOut(500);
+										$(that._whiteBgCss).fadeIn(500);
+										$(that._rightCards_2).fadeIn(500, function () {
+											$(that._rightCards_2).css({
+												'background': 'transparent'
+											});
+										})
+										that._setTimeArray[3] = setTimeout(function () {
+											that._container.find("#rightCards_" + that._rightCardCounter).animate({
+												left: that._rightCardLeftPosArr[that._rightCardCounter - 1]
+											}, 1000, function () {
+												that._firstanimationComple = true;
+												that._setTimeArray[1] = setTimeout(function () {
+													that._rightCardAnimation();
+												}, 1700);
+											});
+										}, 1000)
+									}, 1000);
+								});
+							});
+						},
+						_questionFlashing: function () {
+							var that = this;
+							that._rightCards_4.animate({
+								opacity: '0.1'
+							}, 200, function () {
+								that._rightCards_4.animate({
+									opacity: '1'
+								}, function () {
+									that._animationOfCards()
+								});
+							});
+						},
+						// animation of leftCard
+						_animationOfCards: function () {
+							var that = this;
+							//self.wrapperDummy();
+							that._container.find(".leftCardsImg_" + that._leftCardCounter).css({
+								"background-image": "url(" + $('#leftCardsImgId_' + that._leftCardCounter + '').attr('src') + ")"
+							});
+							that._container.find("#leftCards_" + that._leftCardCounter).animate({
+								left: that._leftCardPosArr[that._leftCardCounter - 1],
+								top: that._rightTopPosArr[that._leftCardCounter - 1]
+							}, 470, function () {
+								that._animationOfLeftCards();
+							});
+						},
+
+						_animationOfLeftCards: function () {
+							var that = this;
+							//self.wrapperDummy();
+							if (that._leftCardCounter <= that._leftCardItems) {
+								that._leftCardCounter++;
+								that._container.find("#leftCards_" + that._leftCardCounter).animate({
+									left: that._leftCardPosArr[that._leftCardCounter - 1],
+									top: that._rightTopPosArr[that._leftCardCounter - 1]
+								}, 500, "swing", function () {
+									//that._animationOfLeftCards();
+								});
+								that._setTimeArray[1] = setTimeout(function () {
+									if (that._leftCardCounter != 6) {
+										that._animationOfLeftCards();
+									}
+								}, 350);
+								if (that._leftCardCounter == 5) {
+									that._container.find(".leftCardsImg_" + that._leftCardCounter).css({
+										"background-image": "url(" + $('#leftCardsImgId_' + that._leftCardCounter + '').attr('src') + ")",
+										"background-position": "-282px 0px"
+									});
+								} else {
+									that._container.find(".leftCardsImg_" + that._leftCardCounter).css({
+										"background-image": "url(" + $('#leftCardsImgId_' + that._leftCardCounter + '').attr('src') + ")"
+									});
+								}
+								that._leftCardPosArr.push($('#leftCards_' + that._leftCardCounter).css('left'));
+								that._rightTopPosArr.push("0");
+							}
+							if (that._leftCardCounter == 6) {
+								that._setTimeArray[4] = setTimeout(function () {
+									that._quesAnim();
+								}, 2000);
+							}
+						},
+						_quesAnim: function () {
+							var that = this;
+							var elem = that._rightCards_4
+							$({
+								scale: 1
+							}).animate({
+								scale: 1.5
+							}, {
+								duration: 800,
+								step: function (now) {
+									elem.css({
+										transform: "scale(" + now + ") translate3d(0,0,0)",
+										'-webkit-transform': "scale(" + now + ") translate3d(0,0,0)",
+										'-ms-transform': "scale(" + now + ") translate3d(0,0,0)",
+										'-moz-transform': "scale(" + now + ") translate3d(0,0,0)",
+										'-o-transform': "scale(" + now + ") translate3d(0,0,0)"
+									});
+								}
+							}, function () {});
+
+							$({
+								scale: 1.5
+							}).animate({
+								scale: 1
+							}, {
+								duration: 800,
+								step: function (now) {
+									elem.css({
+										transform: "scale(" + now + ") translate3d(0,0,0)",
+										'-webkit-transform': "scale(" + now + ") translate3d(0,0,0)",
+										'-ms-transform': "scale(" + now + ") translate3d(0,0,0)",
+										'-moz-transform': "scale(" + now + ") translate3d(0,0,0)",
+										'-o-transform': "scale(" + now + ") translate3d(0,0,0)"
+									});
+								}
+							}, function () {
+
+							});
+							that._setTimeArray[5] = setTimeout(function () {
+								that._handAnimation();
+								//that._playAudio(that._audioArray_1[3]);
+							}, 1000)
+						},
+						//Start of hand Animation
+						_handAnimation: function () {
+							var that = this;
+							that._handImg.css('opacity', '1');
+							that._handImg.animate({
+								left: -50,
+								top: 220
+							}, 1500, function () {
+								that._leftCardsImg_5.css({
+									'transform': 'scale(0.96)',
+									'-webkit-transform': 'scale(0.96)',
+									'-ms-transform': 'scale(0.96)',
+									'-moz-transform': 'scale(0.96)',
+									'-o-transform': 'scale(0.96)',
+									'width': '257px',
+									'height': '254px',
+									'left': '-42px',
+									'top': '-54px',
+									'border': '10px solid black',
+									'background-clip': 'content-box',
+								});
+								that._leftCards_5.css({
+									'overflow': 'visible'
+								});
+								that._rightCards_4.addClass('elementDrop');
+								that._playAudio(that._audioArray_1[3]);
+							});
+						},
+						_movingCardToHolder: function () {
+							var that = this;
+							that._leftCards_5.animate({
+								left: 726,
+								top: 401
+							}, 1500);
+							that._handImg.animate({
+								left: 490,
+								top: 510
+							}, 1500, function () {
+								that._playAudio(that._audioArray_1[4]);
+								that._topBar.css("background-image", "url(" + $('#img22').attr('src') + ")");
+							});
+						},
+						_handOutOfCardAnimation: function () {
+							var that = this;
+
+							that._handImg.animate({
+								top: 800
+							}, 1000, function () {
+								setTimeout(function(){
+									setTimeout(function(){
+										that._container.find('#activityArea').css("z-index", "1")
+									},700)
+									that._handImg.animate({
+										left: -230,
+										top: -60
+									}, 1200, function () {
+										setTimeout(function(){
+											that._handImg.hide();
+											that._topBar.css("background-image", "url(" + $('#img21').attr('src') + ")");
+											that._playAudio(that._audioArray_1[1]);
+										},500)
+									})
+								},1000)
+							});
+						},
+						/* boat animation */
+						_boatAnimation: function () {
+							var that = this;
+							that._rightCards_4.css({
+								'display': 'none'
+							});
+							that._boatImage.css('opacity', '1');
+							that._rightCards_3.animate({
+								'opacity': '0'
+							}, 10, function () {
+								that._rightCards_3.css("background", "transparent");
+								that._rightCards_3.css('opacity', '1');
+							});
+
+							that._boatImage.animate({
+								opacity: 1
+							}, 50, function () {
+								that._leftCards_5.css({
+									'display': 'none'
+								});
+							});
+
+							that._rightwhiteBgCss.fadeOut(500, function () {
+								that._boatImage.animate({
+									left: -130
+								}, 2000, function () {
+									that._setTimeArray[6] = setTimeout(function () {
+										that._boatImage.fadeOut(500);
+										that._rightwhiteBgCss.fadeIn(500);
+										//                        $(that._rightCards_3).css('background', '#FFF');
+										that._leftCards_5.fadeIn(500);
+										that._container.find("#rightCards_" + that._rightCardCounter).animate({
+											left: that._rightCardLeftPosArr[that._rightCardCounter - 1]
+										}, 1000, function () {
+											that._secondanimationComple = true;
+											/* setTimeout(function () {
+												that._handImg.css("opacity", "1")
+												that._container.find('#activityArea').css("z-index", "1")
+											}, 600)
+											that._handImg.animate({
+												left: -230,
+												top: -60
+											}, 1200, function () {
+												setTimeout(function () {
+													that._handImg.css('display', 'none');
+													that._container.find('#activityArea').css("z-index", "0")
+													that._topBar.css("background-image", "url(" + $('#img21').attr('src') + ")");
+												}, 1000)
+											});
+											if ((navigator.userAgent).indexOf("iPad") != -1) {
+												that._handImg.animate({
+													top: -40
+												}, 500);
+											} */
+										});
+									}, 1000);
+								});
+							});
+						},
+						_nextButtonAnimationDemo: function () {
+							var that = this;
+							that._setTimeArray[7] = setTimeout(function () {
+								////window.parent.nextButtonBgChange();
+								that._handImg.animate({
+									opacity: 0
+								}, 500, function () {
+									//window.parent.hideShellHandImg();
+									that._starAnimationDemo();
+								});
+							}, 1000);
+						},
+						_starAnimationDemo: function () {
+							var that = this;
+							//window.parent.nextButtonDisable();
+							that._starAnim.show();
+							that._starAnim.removeClass('removeIndexClass').addClass('addIndexClass');
+							that._correct.show();
+							that._animators["sprite21"].playAnimations();
+							that._setTimeArray[8] = setTimeout(function () {
+								that._reversAnimOfRightCards();
+							}, 1000);
+						},
+						_reversAnimOfRightCards: function () {
+							var that = this;
+							that._container.find("#leftCards_5").animate({
+								left: "1400px"
+							}, 300);
+							that._container.find("#dropOuter_1").animate({
+								left: "1400px"
+							}, 300, function () {
+								that._container.find("#dropOuter_0").animate({
+									left: "1400px"
+								}, 300, function () {
+									that._reversAnimOfLeftCards();
+								});
+							});
+						},
+						_reversAnimOfLeftCards: function () {
+							var that = this;
+							that._leftCards_3.animate({
+								top: -250
+							}, 700, function () {
+								that._leftCards_3.stop(true);
+
+							});
+							setTimeout(function () {
+								that._leftCards_2.animate({
+									top: -250
+								}, 700, function () {
+									that._leftCards_2.stop(true);
+
+								});
+								setTimeout(function () {
+									that._leftCards_1.animate({
+										top: -250
+									}, 700, function () {
+										that._leftCards_1.stop(true);
+
+									});
+									setTimeout(function () {
+										that._leftCards_4.animate({
+											top: -250
+										}, 700, function () {
+											that._leftCards_4.stop(true);
+
+										});
+										setTimeout(function () {
+											that._leftCards_5.animate({
+												top: -250
+											}, function () {
+												that._leftCards_5.stop(true);
+												that._setTimeArray[9] = setTimeout(function () {
+													
+													clearTimeout(that._setTimeArray[9]);
+													////window.parent.showSignOut()
+												}, 1000);
+											});
+										}, 350)
+									}, 350)
+								}, 350)
+							}, 350)
+
+
+
+
+						},
+						_reversAnimOfLeftCardsCallback: function () {
+							var that = this;
+							that._revCont--;
+							that._container.find('#leftCards_' + that._revCont).animate({
+								top: -650
+							}, 500, function () {
+								that._reversAnimOfLeftCardsCallback();
+							});
+						},
+						_addIndexClass: function (index) {
+							var that = this;
+							if (!($(index).hasClass("addIndexClass"))) {
+								$(index).css("z-index", "1");
+								$(index).addClass("addIndexClass");
+							} else {
+								$(index).css("z-index", "0");
+								$(index).addClass("removeIndexClass");
+							}
+							//that.__addIndexClass(_drop);
+						},
+						_createEvents_2: function () {
+							var that = this;
+							if ((navigator.userAgent).indexOf("iPad") != -1) {
+								that._container.find("#customMouseHolder").css({
+									display: 'none'
+								});
+							}
+						},
+						_addIndexClass: function (index) {
+							var that = this;
+							if (!($(index).hasClass("addIndexClass"))) {
+								$(index).css("z-index", "1");
+								$(index).addClass("addIndexClass");
+							} else {
+								$(index).css("z-index", "0");
+								$(index).addClass("removeIndexClass");
+							}
+							//that.__addIndexClass(_drop);
+						},
+						
+						_playAudio: function (str) {
+							var that = this;
+							var _audioplayed = false;
+							
+							if (that.id.search('sim-') != -1) {
+								that._audio = $("#audio2 video")[0];
+							} else {
+								that._audio = document.getElementById('audio2')
+							}
+							
+							that._audio.ontimeupdate = function () {
+								if (this.currentTime >= 0.1 && str == "NGAPMD01_carHonk") {
+									if (!_audioplayed) {
+										that._carAnimation();
+										_audioplayed = true;
+									}
+								} else if (this.currentTime >= 0.1 && str == "NGAPMD01_boatDing") {
+									if (!_audioplayed) {
+										that._boatAnimation();
+										_audioplayed = true;
+									}
+
+								} else if (this.currentTime >= 0.1 && str == "NGAAudioFX_plonk_up") {
+									if (!_audioplayed) {
+										that._movingCardToHolder();
+										_audioplayed = true;
+									}
+								} else if (this.currentTime >= 0.1 && str == "NGAAudioFX_plonk_down") {
+									if (!_audioplayed) {
+										that._handOutOfCardAnimation();
+										_audioplayed = true;
+									}
+								}
+							}
+							
+							that._audio.onended = function () {
+								if (str == "NGAAudioFX_demo") {
+									that._startClick()
+								}
+							}
+							
+							that._audio.pause();
+							if(that._audio.src.indexOf(str) == -1){
+								if (navigator.userAgent.indexOf('Mozilla') || navigator.userAgent.indexOf('TestNavDesktopApp') !== -1) {
+									that._audio.src = $('#'+str+'_wav').attr('data');
+								} else {
+									that._audio.src = $('#'+str+'_mp4').attr('data-src');
+								}
+							}
+							that._audio.play();
+						},
+						
+                        _doScaling: function () {
+							var that = this;
+							//var winHeight = window.innerHeight;
+							var winHeight = $('#'+this.id).parent().height();
+							//var winWidth = window.innerWidth;
+							var winWidth = $('#'+this.id).parent().width();
+							var containerView = $('#NGAPMD01'),
+								containerViewParent = $('#NGAPMD01_Parent'),
+								parentHeight = 0,
+								containerScale = 1;
+							containerView.css({
+								'-webkit-transform': 'scale(' + containerScale + ')',
+								'-moz-transform': 'scale(' + containerScale + ')',
+								'-ms-transform': 'scale(' + containerScale + ')',
+								'-o-transform': 'scale(' + containerScale + ')',
+								"transform-origin": "0% 0%"
+							});
+							containerViewParent.css({
+								width: '0px',
+								height: '0px'
+							});
+							var widthDiff = (containerView.width() - winWidth) / winWidth * 100;
+							var heightDiff = ((containerView.height()) - winHeight) / winHeight * 100;
+							(widthDiff > heightDiff) ? (containerScale = winWidth / containerView.width()) : (containerScale = winHeight / (containerView.height()));
+							if (containerScale > 1) {
+								containerScale = 1;
+							}
+							containerView.css({
+								'-webkit-transform': 'scale(' + containerScale + ')',
+								'-moz-transform': 'scale(' + containerScale + ')',
+								'-ms-transform': 'scale(' + containerScale + ')',
+								'-o-transform': 'scale(' + containerScale + ')'
+							});
+							parentHeight = (containerView.height()) * containerScale;
+							
+							containerViewParent.css({
+								height: parentHeight + 'px',
+								width: "1024px"
+							});
+							window.scrollTo(0, 0);
+							that._scaleFactor = containerScale;
+						},
+                        
+                        _creatingStarAnimSpriteModel: function() {
+                            var that = this;
+                            that._spriteModelData = {
+                                'sprite2': {
+                                    "sprite21": [
+                                        {
+                                            "path": $('#img15').attr('src'),
+                                            "frames": 2
+                                        }
+                                    ],
+                                    "sprite21attr": {
+                                        "contentheight": 874,
+                                        "contentwidth": 915,
+                                        "height": 437,
+                                        "width": 915
+                                    }
+                                }
+                            };
+                        that._animators["sprite21"] = that._processSprite("2", $("#starAnim"), null, null, 250);
+                        },
+
+                        _processSprite: function(spriteNo, parentElem, callBackFunction, className, timeSliceVal) {
+                             var that = this;
+                            function CreateSprite(spriteNo, parentElem, callBackFunction, className, timeSliceVal) {
+                            var each = 0,
+                            underThis = this;
+                            underThis.spriteNo = spriteNo;
+                            underThis.parentElem = parentElem;
+                            underThis.spriteModel = that._spriteModelData["sprite" + spriteNo]["sprite" + underThis.spriteNo + "1"];
+                            underThis.spriteModelAttr = that._spriteModelData["sprite" + spriteNo]["sprite" + underThis.spriteNo + "1attr"];
+                            underThis.animationSheetArray = [];
+                            underThis.animationSheetIndexArray = [];
+                            underThis.animator = null;
+                            underThis.callBack = null;
+                            if (typeof callBackFunction === "undefined" || callBackFunction === "") {
+                                underThis.callBack = null;
+                            } else {
+                                underThis.callBack = callBackFunction;
+                            }
+                            if (typeof timeSliceVal === "undefined") {
+                                timeSliceVal = 150;
+                            }
+                            if (className === null) {
+                                className = "sprites";
+                            }
+                            for (each in underThis.spriteModel) {
+                                underThis.animationSheetIndexArray[each] = each;
+                                underThis.animationSheetArray[each] = new that.AnimationSheet({
+                                    imagePath: underThis.spriteModel[each].path,
+                                    frameSequence: underThis.spriteModel[each].frames,
+                                    identifier: parseInt(each),
+                                    timeSlice: timeSliceVal,
+                                    height: underThis.spriteModelAttr.height,
+                                    width: underThis.spriteModelAttr.width,
+                                    imgContentHeight: underThis.spriteModelAttr.contentheight,
+                                    imgContentWidth: underThis.spriteModelAttr.contentwidth
+                                });
+                            }
+                            underThis.animator = new that.Animator({
+                                parentDom: underThis.parentElem,
+                                preffedClassName: className,
+                                canvasMode: that._isCanvas,
+                                animSheet: underThis.animationSheetArray,
+                                onFrameChange: function(currentFrame, currentAnim) {
+                                },
+                                onSequnceAnimationComplete: function() {
+                                    underThis.animator.playBacktoBackAnimation(underThis.animationSheetIndexArray);
+                                }
+                            });
+                            underThis.playAnimations = function() {
+                                underThis.animator.playBacktoBackAnimation(underThis.animationSheetIndexArray);
+                            };
+                            underThis.stopAnimations = function() {
+                                underThis.animator.stop();
+                            };
+                            underThis.pause = function() {
+                                underThis.animator.pause();
+                            };
+                            underThis.resume = function() {
+                                underThis.animator.resume();
+                            };
+                            underThis.setCurrentAnim = function() {
+
+                            };
+                            underThis.goTo = function() {
+
+                            };
+                            return underThis;
+                            }
+                            return (new CreateSprite(spriteNo, parentElem, callBackFunction, className, timeSliceVal));
+                        },
+                        
+						 AnimationSheet : function (options) {
+							// data is wraped in to the options object
+							'use strict';
+							var that = this;
+							that.options = {
+								imagePath: '',
+								frameSequence: [],
+								timeSlice: 1000,
+								height: 8,
+								width: 8,
+								imgContentHeight: 0,
+								imgContentWidth: 0
+							};
+							// reference for the cached image of given path
+
+							that.image = '';
+							that.loaded = false;
+							that.imageHeight = 8;
+							that.imageWidth = 8;
+							//init is used for intialising AnimationSheet
+
+							that.init = function () {
+								// Merging used send options with defualt values
+								if (!(options.frameSequence instanceof Array)) {
+									if (typeof options.frameSequence == 'number') {
+										var number = options.frameSequence;
+										options.frameSequence = [];                                        
+										for (var i = 0; i < number; i++)options.frameSequence[i] = i;
+									}
+								}
+								$.extend(that.options, that.options, options);
+								// Caching image
+
+								that.image = new Image();
+								that.image.onload = function (e) {
+									that.loaded = true;
+
+									if (that.options.imgContentHeight === 0) {
+										that.imageHeight = that.image.height;
+									} else {
+										that.imageHeight = that.options.imgContentHeight;
+									}
+									if (that.options.imgContentWidth === 0) {
+										that.imageWidth = that.image.width;
+									} else {
+										that.imageWidth = that.options.imgContentWidth;
+									}
+								};
+								that.image.src = that.options.imagePath;
+							};
+
+							that.init();
+
+							return that;
+						},
+						
+						/**
+						 * Animator component is used for animation  with sprites
+						 *
+						 * @param {Object} options
+						 */
+						/*options{}
+						 *
+						 * currentAnimation  - specifies the which animation will play on start (AnimationSheet object)
+						 * canvasMode - specifies to use canvas or div for animation (boolean)
+						 * preffedClassName- class name for animating div or canvas
+						 * parentDom- parent for animating element
+						 * height-height of the animation element
+						 * width-width of the animation element
+						 * resizable - element is resizable of not (boolean)
+						 * animSheet - array of AnimationSheet objects
+						 * requestAnimation - spcifies weither to use requset animation frame or setTimeOut
+						 * callbacks
+						 * onAnimationStart - fired when animation get started
+						 * onFrameChange - fired on every frame change
+						 * onAnimationEnd - fired on end of animation
+						 * onAnimationPause - fired on pause of animation
+						 * onAnimationResume- fired on resume of animation,
+						 * onSequnceAnimationComplete- fired on completion of sequenceal animations
+						 *
+						 */
+
+						Animator : function (options) {
+							//data is wraped in to the options object
+							'use strict';
+							var that = this;
+							that.options = {
+								currentAnimation: null,
+								canvasMode: true,
+								currentFrame: 0,
+								preffedClassName: 'sprites',
+								parentDom: null,
+								height: 8,
+								width: 8,
+								resizable: false,
+								scaleX: 1,
+								scaleY: 1,
+								animSheet: [],
+								requestAnimation: false,
+								onCreate: function () {
+								},
+								onAnimationStart: function (currentAnim) {
+								},
+								onFrameChange: function (currentFrame, currentAnim) {
+								},
+								onAnimationEnd: function (currentAnim) {
+								},
+								onAnimationPause: function (currentAnim) {
+								},
+								onAnimationResume: function (currentAnim) {
+								},
+								onSequnceAnimationComplete: function () {
+								}
+							};
+
+							that.container = '';
+							that.width = '';
+							that.height = '';
+							that.tile = '';
+							that.canvasContext = '';
+							that.temperarySequence = [];
+							that.intervalid = null;
+							that.createInterval = null;
+							that.clearInterval = null;
+							that.intervalId = 0;
+							that.testvalue = 0;
+							that.presentSequnce = null;
+							that.allowContinuousPlay = false;
+							that.sequnceCount = 0;
+							that.LoopCount = 1;
+							that.loadInterval = null;
+							that.forcePause = false;
+
+							that.init = function () {
+								// Merging used send options with defualt values
+								$.extend(that.options, that.options, options);
+
+								try {
+									// Checking for parent
+									that.options.parentDom = $(that.options.parentDom);
+									if (!that.options.parentDom) throw new AnimatorCustomExceptions.domNotFound();
+									// Checking for canvas suuprt
+									var elem = document.createElement('canvas');
+									if (!(elem.getContext && elem.getContext('2d')))that.options.canvasMode = false;
+									// Checking atleast one animsheet specified or not if not throw exception
+									if (that.options.animSheet.length == 0) throw new AnimatorCustomExceptions.noSequenceFound();
+									// If no animation is specified  by defualt first animsheet in animsheet is set
+									that.loadInterval = setInterval(function () {                                        
+										for (var i = 0; i < that.options.animSheet.length; i++) {
+											if (!that.options.animSheet[i].loaded) return false;
+										}
+										that.draw(0, 0);                                        
+										that.loadInterval = clearInterval(that.loadInterval);
+										that.options.onCreate();
+									}, 50);
+
+									if (!that.options.currentAnimation)that.options.currentAnimation = that.options.animSheet[0];
+									that.width = that.options.currentAnimation.options.width;
+									that.height = that.options.currentAnimation.options.height;
+
+									that.createChild(that.options.parentDom);
+									that.options.resizable && that.resizeElement();
+
+								} catch (e) {
+									// Custom exceptions
+									if (e instanceof AnimatorCustomExceptions.noSequenceFound)
+										e.showMessage(that.options.parentDom);
+									else if (e instanceof AnimatorCustomExceptions.domNotFound)
+										e.showMessage();
+									else  (new AnimatorCustomExceptions.commonException).showMessage(e);
+								}
+							};
+
+							// Adding app resize event to element to make change in animating element
+							that.resizeElement = function () {
+								that.container.bind('app:resize', function (e) {
+									that.adjustElement();
+								});
+								that.adjustElement();
+							};
+
+							//function to scale element
+							that.adjustElement = function () {
+								var width = that.options.parentDom.width();
+								var height = that.options.parentDom.height();
+								that.options.scaleX = width / that.width;
+								that.options.scaleY = height / that.height;
+
+								if (!that.options.canvasMode && that.options.resizable) {
+									that.container.css({
+										"transform": 'scale(' + that.options.scaleX + ',' + that.options.scaleY + ')',
+										"-webkit-transform": 'scale(' + that.options.scaleX + ',' + that.options.scaleY + ')',
+										"-moz-transform": 'scale(' + that.options.scaleX + ',' + that.options.scaleY + ')',
+										"-o-transform": 'scale(' + that.options.scaleX + ',' + that.options.scaleY + ')',
+										"-ms-transform": 'scale(' + that.options.scaleX + ',' + that.options.scaleY + ')'
+									});
+
+								} else {
+									var element = that.container[0];
+									element.width = that.width * that.options.scaleX;
+									element.height = that.height * that.options.scaleY;
+								}
+							};
+
+
+							// function to looping through the animation
+							that.iterate = function () {
+								if (that.options.requestAnimation) {
+									that.intervalId = window.requestAnimationFrame(that.iterate);
+								} else {
+									that.intervalId = window.setTimeout(function () {
+										that.iterate();
+									}, that.options.currentAnimation.options.timeSlice);
+								}
+								that.calculateNextTile();
+							};
+
+
+							// function to calculating next tile in the sequence
+							that.calculateNextTile = function () {
+								if (that.temperarySequence.length > that.tile) {
+									var currentTile = that.temperarySequence[that.tile],
+										measureobject = that.calculateLeftTop(currentTile);
+									that.options.currentFrame = currentTile;
+									// top=
+									that.draw(measureobject.x, measureobject.y);
+									that.tile++;
+								} else {
+									that.stop(true);
+									that.options.onAnimationEnd(that.options.currentAnimation);
+									that.tile = 0;
+									//	this.tile=0;
+									if (that.allowContinuousPlay) that.playBackNextAnimation();
+								}
+							};
+
+							// function to calculating top and left of the image to display
+							that.calculateLeftTop = function (currentTile) {
+								var left = (currentTile * that.width) % that.options.currentAnimation.imageWidth;
+								var top = Math.floor((currentTile * that.width) / that.options.currentAnimation.imageWidth) * that.height;
+								return {"x": left, "y": top}
+							};
+
+
+							// function to stop animation
+							that.stop = function (flag) {
+								if (that.intervalId) {
+									that.intervalId = (that.options.requestAnimation) ? window.cancelAnimationFrame(that.intervalId) : window.clearTimeout(that.intervalId);
+									that.tile = 0;
+
+									if (!flag) {
+										that.presentSequnce = null;
+										that.allowContinuousPlay = false;
+										that.sequnceCount = 0;
+									}
+								}
+							};
+
+							//function to create animating element it will create canvas or div depend on canvasMode
+							that.createChild = function (element) {
+								that.container = (that.options.canvasMode) ? $("<canvas style='position:relative;top:0px;left:0px' class=" + that.options.preffedClassName + " width=" + that.width + " height=" + that.height + "></canvas>") : $("<div style='position:relative;top:0px;left:0px;width:" + that.width + "px;height:" + that.height + "px;background-image:url(" + that.options.currentAnimation.options.imagePath + "); background-position: 0px 0px;' class=" + that.options.preffedClassName + "></div>");
+								element.append(that.container);
+								(that.options.canvasMode ) && (that.canvasContext = that.container.get(0).getContext('2d'));
+								if ($.browser.webkit) {
+									(that.options.canvasMode ) && (CanvasRenderingContext2D.imageSmoothingEnabled = false);
+								}
+							};
+
+							// function to start animation
+							that.start = function (customsequence) {
+								try {
+									if (customsequence) {
+										for (var i = 0; i < customsequence.length; i++) {
+											if (that.options.currentAnimation.options.frameSequence.toString().indexOf(customsequence[i]) == -1) {
+												throw new AnimatorCustomExceptions.noSequenceFound();
+											}
+										}
+										that.temperarySequence = customsequence;
+									} else {
+										that.temperarySequence = that.options.currentAnimation.options.frameSequence;
+									}
+
+									if (that.intervalId && !that.allowContinuousPlay) {
+										that.stop();
+									}
+
+									that.tile = 0;
+									that.forcePause = false;
+									that.options.onAnimationStart(that.options.currentAnimation);
+									if (!that.options.canvasMode) {
+										that.container.css("background-image", 'url(' + that.options.currentAnimation.options.imagePath + ')');
+									}
+									that.width = that.options.currentAnimation.options.width;
+									that.height = that.options.currentAnimation.options.height;
+									that.changeDimensions();
+									that.iterate();
+								} catch (e) {
+									if (e instanceof AnimatorCustomExceptions.noSequenceFound)
+										e.showMessage(that.options.parentDom);
+								}
+							};
+
+							// function to play back to back animations
+							that.playBacktoBackAnimation = function (animArray, count) {
+								that.presentSequnce = animArray;
+								that.allowContinuousPlay = true;
+								that.sequnceCount = 0;
+								that.options.currentAnimation = that.options.animSheet[animArray[that.sequnceCount]];
+								that.sequnceCount = 1;
+								that.start();
+							};
+
+							// function to pick next animation from the sequence
+							that.playBackNextAnimation = function () {
+								if (that.sequnceCount < that.presentSequnce.length) {
+									that.options.currentAnimation = that.options.animSheet[that.presentSequnce[that.sequnceCount]];
+									that.sequnceCount++;
+									that.start();
+								} else {
+									that.presentSequnce = null;
+									that.allowContinuousPlay = false;
+									that.sequnceCount = 0;
+									that.options.onSequnceAnimationComplete();
+								}
+							};
+
+							// function to resume animation
+							that.resume = function () {
+								if (!that.intervalId) {
+									that.iterate();
+									that.options.onAnimationResume(that.options.currentAnimation);
+								}
+							};
+
+							// function to pause animation
+							that.pause = function () {
+								if (that.intervalId) {
+									that.intervalId = (that.options.requestAnimation) ? window.cancelAnimationFrame(that.intervalId) : window.clearTimeout(that.intervalId);
+									that.options.onAnimationPause(that.options.currentAnimation);
+								}
+							};
+
+							// function to move to particular frame in sequence
+							that.goTo = function (frameNumber) {
+								that.stop();
+								var sequenceLength = that.options.currentAnimation.options.frameSequence.length;
+								for (var i = 0; i < sequenceLength; i++) {
+									if (that.options.currentAnimation.options.frameSequence[i] == frameNumber) {
+										var measureobject = that.calculateLeftTop(frameNumber);
+										that.options.currentFrame = frameNumber;
+										that.draw(measureobject.x, measureobject.y);
+										that.tile = i;
+										return true;
+									}
+								}
+								return false;
+							};
+
+							// function to reset sequence of current animation
+							that.changeSequence = function (sequence) {
+								that.options.currentAnimation.options.frameSequence = sequence;
+							};
+
+							// function to move to particular frame in sequence and animate sequences later.
+							that.goToAndPlay = function (frameNumberArray, sequence) {
+								if (that.goTo(frameNumberArray)) {
+
+									if ($.isArray(frameNumberArray)) {
+										that.temperarySequence = frameNumberArray;
+									} else {
+										var i = that.options.currentAnimation.options.frameSequence.indexOf(frameNumberArray);
+										if (i != -1) {
+											that.temperarySequence = that.options.currentAnimation.options.frameSequence;
+										} else {
+											that.temperarySequence = frameNumberArray;
+										}
+									}
+									that.iterate();
+								}
+								if (sequence) {
+									that.presentSequnce = sequence;
+									that.allowContinuousPlay = true;
+									that.sequnceCount = 0;
+								}
+							};
+
+							// function to animate  frame in  reverse sequence
+							that.reverseAnimation = function () {
+								var arrayLength = that.options.currentAnimation.options.frameSequence.length;
+								for (var i = 0; i < arrayLength; i++)
+									that.temperarySequence[arrayLength - 1 - i] = that.options.currentAnimation.options.frameSequence[i];
+								that.tile = 0;
+								that.iterate();
+							};
+
+							// function for adding  new AnimationSheet object
+							that.addNewAnimationSheet = function (animobject) {
+								if (animobject instanceof AnimationSheet) {
+									var add = true;
+									for (var i = 0; i < that.options.animSheet.length; i++) {
+										if (that.options.animSheet[0] === animobject)add = false;
+									}
+									that.options.animSheet.push(animobject);
+								}
+							};
+
+							// function for setting current animation sheet for sequencing
+							that.setCurrentAnim = function (objectPos) {
+								try {
+									if (objectPos >= 0 && objectPos < that.options.animSheet.length) {
+										that.options.currentAnimation = that.options.animSheet[objectPos];
+										if (!that.options.canvasMode) {
+											that.container.css("background-image", 'url(' + that.options.currentAnimation.options.imagePath + ')');
+										}
+										that.goTo(0);
+									} else {
+										throw new AnimatorCustomExceptions.domNotFound();
+									}
+								} catch (e) {
+									if (e instanceof AnimatorCustomExceptions.domNotFound) e.showMessage();
+								}
+							};
+
+							// function for get current animation sheet
+							that.getCurrnetAnim = function () {
+								return that.options.currentAnimation;
+							};
+
+							// function for get current frame of current animation sheet
+							that.getCurrentFrame = function () {
+								return that.temperarySequence[that.tile];
+							};
+
+							// changing the width and height of animating elment according to animation sheet height and width
+							that.changeDimensions = function () {
+								that.width = that.options.currentAnimation.options.width;
+								that.height = that.options.currentAnimation.options.height;
+								if (!that.options.canvasMode) {
+									that.container.width(that.width);
+									that.container.height(that.height);
+								}
+								that.adjustElement();
+								/* if(!_this.options.canvasMode){  }else{
+								 var element=_this.$el[0];
+								 element.width=_this.width*_this.options.scaleX;
+								 element.height=_this.height*_this.options.scaleY;
+								 }*/
+							};
+
+							// function for drawing image on canvas or changing background position of the div
+							that.draw = function (startposx, startposy) {
+								if (that.options.canvasMode) {
+									that.canvasContext.clearRect(0, 0, that.width * that.options.scaleX, that.height * that.options.scaleY);
+									//_this.canvasContext.scale(_this.options.scaleX,_this.options.scaleY);
+									that.canvasContext.drawImage(that.options.currentAnimation.image, startposx, startposy, that.options.currentAnimation.options.width, that.options.currentAnimation.options.height, 0, 0, that.width * that.options.scaleX, that.height * that.options.scaleY);
+									//_this.canvasContext.scale(1,1);
+								} else {
+									that.container.css("background-position", -startposx + "px" + " " + -startposy + "px");
+								}
+								that.options.onFrameChange(that.options.currentFrame, that.options.currentAnimation);
+							};
+
+							that.init();
+							return that;
+						},
+											
+						//Custom Exception
+						
+						AnimatorCustomExceptions : {
+							noSequenceFound: function () {
+								this.showMessage = function (element) {
+									element.html("no sequence is specified for this animation");
+								};
+							},
+							domNotFound: function () {
+								this.showMessage = function () {
+									if (console) console.log("passed element is not found");
+								};
+							},
+							commonException: function () {
+								this.showMessage = function (e) {
+									if (console) console.log(e);
+								};
+							}
+						}
+
+                        
+					});
+				]]>
+                    </customOption>
+                </prcqti:customInteraction>
+            </customInteraction>
+
+        </itemBody>
+		    </assessmentItem>
